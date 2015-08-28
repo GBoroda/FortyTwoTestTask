@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    <div class="container">
+    <h1>42 Coffee Cups Test Assignment</h1>
+    </div>
+
+    <div class="container">
+    <hr>
+    <div class="col-sm-5 pull-left">
+        <div><b>Name:</b> {{ contact.name }}</div>
+        <div><b>Last name:</b> {{ contact.surname }}</div>
+        <div><b>Date of birth:</b> {{ contact.date_of_birth }}</div>
+    </div>
+
+    <div class="col-sm-5">
+        <div><b>Email:</b> {{ contact.email }}</div>
+        <div><b>Jabber ID:</b> {{ contact.jabber }}</div>
+        <div><b>Skype:</b> {{ contact.skype }}</div>
+        <div><b>Bio:</b></div>
+        <div><i>{{ contact.bio|linebreaksbr }}</i></div>
+        <div><b>Other contacts:</b></div>
+        <div><i>{{ contact.other|linebreaksbr }}</i></div>
+    </div>
+    </div>
+
+{% endblock %}

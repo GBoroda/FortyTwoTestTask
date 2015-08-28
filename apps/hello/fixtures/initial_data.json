@@ -1,0 +1,34 @@
+[
+  {
+    "model": "hello.Contact",
+    "pk": 1,
+    "fields": {
+      "name": "Михаил",
+      "surname": "Спиридонов",
+      "date_of_birth": "1994-03-02",
+      "bio": "Super puper bio.",
+      "skype": "cho_che17",
+      "email": "MSpiridonov94@gmail.com",
+      "jabber": "GBoroda@42cc.co",
+      "other": "other contact not found"
+    }
+  },
+  {
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": [],
+    "first_name": "",
+    "is_active": true,
+    "last_name": "",
+    "username": "admin",
+    "email": "admin@admin.com",
+    "password": "pbkdf2_sha256$12000$5a6V4KSHCnkK$yZ5g6FsAFeaBLPaecpGB4e9b6cPfx6s8Rxzq0lwCK3c=",
+    "date_joined": "2015-04-05T17:36:10.093Z",
+    "last_login": "2015-04-05T17:36:10.093Z",
+    "is_superuser": true
+  }
+}
+]
